@@ -1,0 +1,29 @@
+{
+  "name": "connecthub-backend",
+  "version": "1.0.0",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "tsc && node dist/server.js",
+    "dev": "nodemon src/server.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.7",
+    "@types/pg": "^8.11.10",
+    "dotenv": "^16.4.7",
+    "drizzle-kit": "^0.30.2",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.4",
+    "drizzle-orm": "^0.38.4",
+    "express": "^4.21.2"
+  }
+}
